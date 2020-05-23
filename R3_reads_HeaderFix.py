@@ -1,5 +1,8 @@
 #! /usr/bin/env python3
 
+# This script was originally written by Sydney Birch of the University of New Hampshire,
+# and has been lightly modified by Chris Gonzalez
+
 import argparse
 
 # If argparse is not installed, try an installer code on your command line. Argparse is
@@ -37,6 +40,3 @@ try:
                     count +=1
 except IOError:
     print("IO error occured.")
-
-# gzip the fixed_R3_reads.fq file for storage
-gzip fixed_R3_reads.fq
