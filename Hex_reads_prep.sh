@@ -77,4 +77,4 @@ mv total_R3.fq ../total_reads
 cd ../total_reads
 
 echo reads have been prepped!
-echo NEXT STEPS: Remember to run the python script R3_reads_HeaderFix.py by executing the script with the -d option. For example, ./R3_reads_HeaderFix.py -d ./total_R3.fq
+echo NEXT STEPS: Run the python script R3_reads_HeaderFix.py by executing with the -d option. For example, ./R3_reads_HeaderFix.py -d ./total_R3.fq
