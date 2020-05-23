@@ -19,7 +19,7 @@ args = parser.parse_args()
 
 try:
     with open(args.d, "rt") as in_handel:
-        with open("fixed_R3_reads.fq", "wt") as out_handel_2:
+        with open("fixed_R3.fq", "wt") as out_handel_2:
             count = 0
         #iterate through each line within the file, if its the fourth line (header) it will edit the header then add it to the empty string
             for line in in_handel:
